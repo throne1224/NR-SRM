@@ -16,7 +16,7 @@ test.py测试客户端和服务端的通信逻辑。运行以下命令执行测�
 ### 1. 运行server.py和client.py
 ![image](https://github.com/user-attachments/assets/14bd6ce4-2220-4388-ad6a-c2c074312818)
 ### 2. 运行test.py测试
-
+![image](https://github.com/user-attachments/assets/d35fe307-0318-4f8d-b58d-ee5bd53af856)
 ## 附加题目（RPC）运行效果展示
 ### 1. 运行server_RPC.py和client_RPC.py
 ![image](https://github.com/user-attachments/assets/fe7f2590-2f80-4725-b569-ecee1ebda7d8)
