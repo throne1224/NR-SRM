@@ -10,7 +10,7 @@ PORT = 9999
 
 def test_rpc_calls():
     os.environ["TRUST_ID"] = CORRECT_TRUST_ID
-    from client_RPC import RPCClient  # 必须在设置 TRUST_ID 后导入
+    from client_RPC import RPCClient
     client = RPCClient(HOST, PORT)
 
     async def run_async_calls():
@@ -39,8 +39,6 @@ def test_trust_id_mismatch():
             assert (
                 "unauthorized" in msg
                 or "trust_id" in msg
-                or "拒绝连接" in msg
-                or "远程计算机拒绝网络连接" in msg
                 or isinstance(e, ConnectionRefusedError)
                 or isinstance(e, ConnectionResetError)
                 or isinstance(e, OSError)
