@@ -1,0 +1,2 @@
+n_clusters,linkage,metric,Dominance Index,Calinski-Harabasz Score,Median Cosine Similarity,Modularity,JCR,Composite Score
+18,ward,euclidean,0.5235525930915783,197.30716145500372,0.9664899202124715,0.7714881605900016,0.8490830920417654,0.6331

@@ -1,0 +1,2 @@
+epoch,loss,output,hidden1,hidden2,hidden3,lr,dropout,patience,seed
+252,0.009251519106328487,11,32,32,16,0.01,0.3,50,42
